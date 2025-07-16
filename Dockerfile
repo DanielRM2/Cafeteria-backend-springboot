@@ -17,4 +17,4 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Ejecutar el archivo JAR generado
-CMD ["java", "-jar", "target/Springboot-Cafeteria-1.0.jar"]
+CMD ["java", "-jar", "target/springboot-cafeteria-1.0.jar"]
